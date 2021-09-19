@@ -9,7 +9,7 @@ The written materials must be on Jupyter notebooks because the course building p
 All the videos will need to be uploaded to the NumFOCUS YouTube channel, and will be embedded in the course sequences.
 
 NumFOCUS will build an online course with the materials provided by the instructors on our Open edX platform.
-The instructors' content is always open access and free: videos on  YouTube, and notebooks in this GitHub repository (under standard public licenses). 
+The instructors' content is always open access and free: videos on YouTube, and notebooks in this GitHub repository (under standard public licenses). 
 To access the learning sequences on the Academy platform, participants need to be registered. 
 
 The materials should include an outline that traces a path through the content, with signposts of where each video and other elements (like exercises) should go.
