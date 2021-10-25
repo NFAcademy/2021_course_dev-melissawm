@@ -1,47 +1,50 @@
-# course_template
-A template repository for NumFOCUS Academy courses.
+# Array computations in Python
 
-We are using GitHub Classroom as a way to collect materials from course developers. 
-After creating an "assignment" with this template repository, the lead course instructor can be sent a link that will allow them to create a repository for their course, under the NF Academy org.
-Having a common folder structure will help us when building courses in the online platform with the contents on GitHub.
+## Course Description
 
-> Delete this file (or rename it) and replace it by a README file that targets the contents of the repository, populated with your course materials.
+As the fundamental package for scientific computing with Python, NumPy offers powerful n-dimensional arrays along with comprehensive mathematical functions and tools. Even if your goal is to use high-level libraries for specific applications such as data science, astronomy, computational biology or finance, familiarity with NumPy data structures and techniques is essential for writing performant and elegant code.
+
+This course is designed for people who are familiar with Python and want to use NumPy to write efficient scientific code. We will focus on the main features of NumPy arrays and show how to use them to represent and manipulate data.
+
+## Learning Objectives
+
+By the end of this course, you should be able to:
+
+1. Understand how to create, manipulate and efficiently use NumPy arrays
+2. Understand slicing, advanced indexing and vectorization to write performant scientific code in Python
+3. Apply tools from the Polynomial and Random Number Generation subpackages to solve specific problems
+
+## Course Outline
+
+The course is structured around four Jupyter notebooks.
+
+1. Intro
+    * Getting data from a csv file
+    * Basic indexing and manipulation
+    * Saving data for later use with `np.savez`
+    * Basic built-in NumPy tools for plotting and integrating with Matplotlib.
+
+2. How to write efficient code
+    * Slicing
+    * Advanced indexing
+
+3. Vectorization: an introduction to universion functions
+    * When and how to vectorize
+    * Why this works: ufuncs
+    * Examples and applications
+
+4. Submodules
+    * The polynomial submodule: analyzing and building an approximation to existing data
+    * Random Number Generation and manipulation
 
 ## Instructions
 
-Use the link from [GitHub Classroom](https://classroom.github.com) to create your repository based on this template. 
-Add your content as Jupyter notebooks in the `notebooks` folder, and name them with a numeric prefix:
+All content is in Jupyter notebooks in the `notebooks` folder, named using the following pattern:
 
 - `01_title_of_first_lesson.ipynb`
 - `02_title_of_second_lesson.ipynb`
 
-The typical course will be 4 or 5 notebooks, fully narrated (i.e., please include full prose explaining all code and worked examples).
-Use plenty of headings to organize the content, and split Markdown cells at each heading. 
-If a section is longer than what you might read on a single scroll of a laptop display, split the cell (this will help us when building the online course from the notebooks).
-
-Put any data sets used in the worked examples in the `data` folder and add a file index in the README.md file in that folder. 
-(Include any credits for data that you sourced from others.)
-Add in the `images` and `scripts` folders any images embedded in the Markdown cells of your notebooks and any scripts imported or ran within code cells, respectively.
-
-Optionally, you can share any slides in the `slides` folder. We prefer text-based source, but you can also drop PDF files in there (please no binaries like .pptx).
-
-**Important**: Add all code dependencies to the `requirements.txt` or `environment.yaml` file. 
-
-> For more detailed instructions, read the [Course Development Guide](https://github.com/NFAcademy/course_template/blob/main/Course_Development_Guide.md).
-
-## How we build your course
-
-The NumFOCUS Academy uses an instance of the [Open edX](https://open.edx.org/) software platform for online learning. 
-We will build a course learning sequence by pulling content directly from your Jupyter notebooks, which will be displayed as embedded HTML in the course. 
-Sections of a notebook can be displayed in the online course as a "unit" of the learning sequence, interleaved with videos or student assignments (graded or ungraded). 
-
-Open edX allows a variety of [problem types](https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/create_exercises_and_tools.html), such as multiple choice, dropdown choice, numerical input, and even [math expression input](https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/math_expression_input.html#math-expression-input) problems.
-We also have a third-party extension for graded assignments using Jupyter notebooks and [nbgrader](https://nbgrader.readthedocs.io/en/stable/).
-
-### License
-The source materials for NumFOCUS Academy courses are copyright of their authors. 
-We ask that materials be shared under an open-source license of the author's choosing. Our recommendation is: BSD-3 (or MIT) license for code, CC-BY license for text and media, CC0 for data.
-
+All data sets used in the worked examples are in the `data` folder, and there is a file index in the README.md file in that folder.
 
 # General information
 
